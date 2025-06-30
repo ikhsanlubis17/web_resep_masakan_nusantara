@@ -22,13 +22,6 @@
         filter: brightness(0.7) contrast(1.1);
     }
     
-    .hero-overlay {
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(135deg, rgba(58, 77, 57, 0.8) 0%, rgba(79, 111, 82, 0.6) 100%);
-        z-index: 1;
-    }
-    
     [data-theme="dark"] .hero-overlay {
         background: linear-gradient(135deg, rgba(26, 26, 26, 0.9) 0%, rgba(58, 77, 57, 0.8) 100%);
     }

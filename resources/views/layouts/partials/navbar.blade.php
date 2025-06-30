@@ -2,8 +2,8 @@
     <div class="container">
         <a class="navbar-brand font-display" href="{{ route('home') }}">
             <div class="brand-icon">
-                <i class="bi bi-cup-hot-fill"></i>
-            </div>
+                <img src="{{ asset('images/logo.png') }}" alt="Logo Nusantara Flavours" class="img-fluid" style="height: 40px;">
+            </div>            
             <div class="brand-text d-none d-sm-block">
                 <div class="brand-title">Nusantara Flavours</div>
                 <div class="brand-subtitle">Cita Rasa Nusantara</div>

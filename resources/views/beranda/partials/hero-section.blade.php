@@ -67,21 +67,6 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- Hero Image (Optional) -->
-            <div class="col-lg-4 d-none d-lg-block">
-                <div class="hero-image-wrapper animate-slide-in-right">
-                    <div class="hero-floating-card">
-                        <img src="/placeholder.svg?height=300&width=250" 
-                             alt="Featured Recipe" 
-                             class="hero-recipe-image">
-                        <div class="floating-card-content">
-                            <h6 class="mb-1">Resep Terpopuler</h6>
-                            <p class="small mb-0 text-white-50">Rendang Padang Autentik</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
