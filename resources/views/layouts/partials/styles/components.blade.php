@@ -50,38 +50,28 @@
     }
     
     .brand-icon {
-        width: 42px;
-        height: 42px;
-        background: var(--primary-gradient);
-        border-radius: var(--radius-xl);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        box-shadow: var(--shadow-md);
-        transition: all var(--transition-normal);
-        position: relative;
-        overflow: hidden;
-    }
-    
-    .brand-icon::before {
-        content: '';
-        position: absolute;
-        top: -2px;
-        right: -2px;
-        width: 12px;
-        height: 12px;
-        background: var(--cream);
-        border-radius: 50%;
-        opacity: 0.9;
-        animation: pulse-glow 2s infinite;
-    }
-    
-    .brand-icon i {
-        color: white;
-        font-size: 1.125rem;
-        z-index: 2;
-        position: relative;
-    }
+    width: auto;
+    height: auto;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    position: static;
+}
+
+.brand-icon::before {
+    display: none;
+}
+
+.brand-icon img {
+    height: 40px;
+    width: auto;
+}
+
     
     .brand-text {
         display: flex;
