@@ -160,7 +160,7 @@
         </div>
 
         <!-- Recent Users -->
-        <div class="col-lg-4">
+        <div class="col-lg-4 d-flex flex-column h-100">
             <div class="card shadow mb-4">
                 <div class="card-header py-3 d-flex justify-content-between align-items-center">
                     <h6 class="m-0 font-weight-bold text-primary">Pengguna Terbaru</h6>
@@ -233,6 +233,7 @@
 
 @push('styles')
 <style>
+
 .border-left-primary {
     border-left: 0.25rem solid #4e73df !important;
 }

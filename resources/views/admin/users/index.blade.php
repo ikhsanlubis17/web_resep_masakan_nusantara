@@ -4,10 +4,13 @@
 
 @section('content')
 <div class="container-fluid py-4">
-    <div class="d-flex justify-content-between align-items-center mb-4">
-        <h1 class="h3 mb-0 text-gray-800">Kelola Pengguna</h1>
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center mb-4 gap-2">
         <div>
-            <a href="{{ route('admin.users.create') }}" class="btn btn-primary me-2">
+            <h1 class="h3 mb-1 text-gray-800">Kelola Pengguna</h1>
+            <p class="text-muted">Manajemen data pengguna dalam sistem</p>
+        </div>
+        <div class="w-100 w-md-auto d-flex flex-column flex-sm-row gap-2 justify-content-sm-end">
+            <a href="{{ route('admin.users.create') }}" class="btn btn-primary">
                 <i class="bi bi-person-plus me-2"></i>Tambah User
             </a>
             <a href="{{ route('admin.dashboard') }}" class="btn btn-secondary">
@@ -15,7 +18,7 @@
             </a>
         </div>
     </div>
-
+    
     <!-- Filter -->
     <div class="card shadow mb-4">
         <div class="card-body">

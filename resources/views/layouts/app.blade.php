@@ -7,6 +7,8 @@
     
     <title>{{ config('app.name', 'Nusantara Flavours') }} - @yield('title', 'Resep Masakan Tradisional Indonesia')</title>
     
+    <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,15 +29,13 @@
     @yield('styles')
 </head>
 
-<body>
-    <div id="app">
+<body class="d-flex flex-column min-vh-100">
+    <div id="app" class="flex-grow-1 d-flex flex-column">
         @include('layouts.partials.navbar')
-        
-        <main style="padding-top: 90px;">
+        <main class="flex-grow-1" style="padding-top: 90px;">
             @include('layouts.partials.alerts')
             @yield('content')
         </main>
-        
         @include('layouts.partials.footer')
         @include('layouts.partials.back-to-top')
         @include('layouts.partials.toast-container')
