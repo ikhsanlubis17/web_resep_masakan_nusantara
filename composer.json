@@ -58,6 +58,11 @@
         "test": [
             "@php artisan config:clear --ansi",
             "@php artisan test"
+        ],
+        "post-install-cmd": [
+            "php artisan key:generate",
+            "php artisan migrate --force",
+            "php artisan config:cache"
         ]
     },
     "extra": {
